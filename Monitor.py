@@ -556,3 +556,11 @@ class Monitor:
             node = t.search(id_)
             if node:
                 return self.latest_stats_all(node.value)
+
+    def __repr__(self):
+        """Override __repr__ function.
+
+        :rtype: str
+        """
+        return f"<{self.__class__.__name__} {self.kwargs.get('host') or self.args[0]} " \
+               f"{'Connected' if self.service_instance else 'Disconnected'}>"
