@@ -1,0 +1,3 @@
+pandas==1.3.5
+pyVim==3.0.2
+pyVmomi==7.0.3
