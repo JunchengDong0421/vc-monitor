@@ -45,7 +45,7 @@ class Node:
         cls.global_id = 1
 
     def __repr__(self):
-        """Overwrite __repr__ function.
+        """Override __repr__ function.
 
         :rtype: str
         """
@@ -132,7 +132,7 @@ class DCTree:
                 return n
 
     def __repr__(self):
-        """Overwrite __repr__ function.
+        """Override __repr__ function.
 
         :rtype: str
         """
